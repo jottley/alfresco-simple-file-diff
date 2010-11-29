@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Simple File Diff</shortname>
+    <description>Performs a straight file comparison</description>
+    <url>/file/{store_type1}/{store_id1}/{id1}/diff/{store_type2}/{store_id2}/{id2}</url>
+    <authentication>user</authentication>
+    <format default="html"/>
+    <transaction>requiresnew</transaction>
+</webscript>
